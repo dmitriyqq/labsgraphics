@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Example Lab 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        canvas{
+            display: block;
+            margin: auto;
+            background-color: white;
+        }
+
+        body {
+            background-color: #EEE;
+        }
+
+        .controls{
+            display: flex;
+            flex-direction: row;
+            justify-items: space-between;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="controls">
+        <label for="full">Full Line</label>
+        <input name="full" type="checkbox" id="full-line">
+        <label for="inner">Inner Line</label>
+        <input name="inner" type="checkbox" id="inner-line" checked>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="lab2.js"></script>
+</body>
+
+</html>
